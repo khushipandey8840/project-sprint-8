@@ -1,55 +1,16 @@
-# project-sprint-8
-# Netflix Lite
+# React + Vite
 
-A React + Vite based movie discovery application that uses the TMDB API to display popular movies and search for movies.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- View Popular Movies
-- Search Movies
-- Responsive Movie Grid
-- Movie Poster, Title, Rating & Release Year
-- Lazy Loading Images
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-- React
-- Vite
-- Axios
-- TMDB API
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Installation
+## Expanding the ESLint configuration
 
-1. Clone the repository
-2. Install dependencies
-
-```bash
-npm install
-```
-
-3. Create a `.env` file
-
-```env
-VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
-```
-
-4. Start the project
-
-```bash
-npm run dev
-```
-
-## Project Structure
-
-```
-src/
-├── App.jsx
-├── services/
-│   └── tmdb.js
-├── components/
-└── index.css
-```
-
-## Author
-
-Sakshi Pandey
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
